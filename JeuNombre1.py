@@ -37,7 +37,7 @@ while guesses_left > 0:
 
 if guess == number:
     guesses_taken = str(guesses_taken)
-    print('Bravo, ' + my_name + '! Tu as trouvé mon nombre en ' + guesses_taken +' essai(s) !')
+    print('Bravo, ' + my_name + ' ! Tu as trouvé mon nombre en ' + guesses_taken +' essai(s) !')
 
 if guess != number:
     number = str(number)    
